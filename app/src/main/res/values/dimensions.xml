@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="throttleBarHeight">300dp</dimen>
+    <dimen name="throttleBarWidth">220dp</dimen>
+    <dimen name="throttleLayoutHeight">270dp</dimen>
+    <dimen name="turnBarHeight">220dp</dimen>
+    <dimen name="turnBarWidth">300dp</dimen>
+    <dimen name="turnLayoutWidth">270dp</dimen>
+    <dimen name="settingsPidSeekBarWidth">450dp</dimen>
+    <dimen name="settingsPidSeekBarHeight">50dp</dimen>
+</resources>

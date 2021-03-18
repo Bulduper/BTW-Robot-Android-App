@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009EE6</color>
+    <color name="colorPrimaryDark">#006C9E</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="activitiesBackground">#838383</color>
+    <color name="colorThrottleBarBackground">#E3E3E3</color>
+    <color name="colorThrottleProgressMark">#009EE6</color>
+    <color name="colorTurnProgressMark">#AF142B</color>
+</resources>

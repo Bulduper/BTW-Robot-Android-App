@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activitiesBackground"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:id="@+id/speedPidPGroupLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/speedIValueTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/speedPidPLabelTextView"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/speedP"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/minSpeedPidPTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <SeekBar
+            android:id="@+id/speedPidPSeekBar"
+            android:layout_width="@dimen/settingsPidSeekBarWidth"
+            android:layout_height="@dimen/settingsPidSeekBarHeight" />
+
+        <TextView
+            android:id="@+id/maxSpeedPidPTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/speedPidIGroupLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/anglePValueTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/speedPidILabelTextView"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/speedI"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/minSpeedPidITextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <SeekBar
+            android:id="@+id/speedPidISeekBar"
+            android:layout_width="@dimen/settingsPidSeekBarWidth"
+            android:layout_height="@dimen/settingsPidSeekBarHeight" />
+
+        <TextView
+            android:id="@+id/maxSpeedPidITextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/anglePidPGroupLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/angleDValueTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/anglePidPLabelTextView"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/angleP"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/minAnglePidPTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <SeekBar
+            android:id="@+id/anglePidPSeekBar"
+            android:layout_width="@dimen/settingsPidSeekBarWidth"
+            android:layout_height="@dimen/settingsPidSeekBarHeight" />
+
+        <TextView
+            android:id="@+id/maxAnglePidPTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/anglePidDGroupLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/anglePidDLabelTextView"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/angleD"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/minAnglePidDTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <SeekBar
+            android:id="@+id/anglePidDSeekBar"
+            android:layout_width="@dimen/settingsPidSeekBarWidth"
+            android:layout_height="@dimen/settingsPidSeekBarHeight" />
+
+        <TextView
+            android:id="@+id/maxAnglePidDTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/speedPValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/speedPidPGroupLayout"
+        app:layout_constraintEnd_toEndOf="@+id/speedPidPGroupLayout"
+        app:layout_constraintStart_toStartOf="@+id/speedPidPGroupLayout" />
+
+    <TextView
+        android:id="@+id/speedIValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/speedPidIGroupLayout"
+        app:layout_constraintEnd_toEndOf="@+id/speedPidIGroupLayout"
+        app:layout_constraintStart_toStartOf="@+id/speedPidIGroupLayout" />
+
+    <TextView
+        android:id="@+id/anglePValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/anglePidPGroupLayout"
+        app:layout_constraintEnd_toEndOf="@+id/anglePidPGroupLayout"
+        app:layout_constraintStart_toStartOf="@+id/anglePidPGroupLayout" />
+
+    <TextView
+        android:id="@+id/angleDValueTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/anglePidDGroupLayout"
+        app:layout_constraintEnd_toEndOf="@+id/anglePidDGroupLayout"
+        app:layout_constraintStart_toStartOf="@+id/anglePidDGroupLayout" />
+
+    <ImageButton
+        android:id="@+id/goBackButton"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrow_back_black_40dp" />
+
+    <ImageButton
+        android:id="@+id/savePidsButton"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_save_black_24dp" />
+
+    <ImageButton
+        android:id="@+id/defaultWifiSettingsImageButton"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/savePidsButton"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_wifi_black_24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

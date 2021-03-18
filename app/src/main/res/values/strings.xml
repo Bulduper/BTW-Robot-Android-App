@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Balancing Robot Control App v0.1</string>
+    <string name="speedP">Speed P</string>
+    <string name="speedI">Speed I</string>
+    <string name="angleP">Angle P</string>
+    <string name="angleD">Angle D</string>
+
+    <string name="connectButtonText">Connect to the Robot</string>
+    <string name="changeDefaultWifiInfo">Change the default Wifi credentials</string>
+    <string name="changeDefaultWifiButton">CHANGE</string>
+    <string name="speedInfo">SPEED:</string>
+    <string name="angleInfo">ANGLE:</string>
+    <string name="delayFeedbackInfo">DELAY:</string>
+    <string name="changeDefaultWifiInfo2">Set the default Wifi credentials the Robot will use at every startup while trying to connect to a network. If the connection is not successful, the AP starts.</string>
+</resources>
